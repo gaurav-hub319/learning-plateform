@@ -115,10 +115,11 @@ form {
     <p>
       <input type="submit" value="Sign Up" id="submit" name="tsignup">
     </p>
-    <p >
-     <a href="teacher.php" style="padding:5px;font-size:16px;color:#4a93b5;">Already Sign UP? Please Login</a>
+    <p>
+     <a href="teacher.php" style="padding:5px;font-size:16px;">Alreday Signup? Sign In</a>
     </p>
   </form>
+  
      <script src="
 https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
