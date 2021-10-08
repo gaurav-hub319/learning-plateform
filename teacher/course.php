@@ -119,7 +119,7 @@ if(isset($_SESSION['login_admin'])){
                       <a href="action.php?course_delid=<?php echo $row['course_id'];?>" class="btn btn-danger">
                         <i class="fa fa-trash" aria-hidden="true"></i>
                       </a>
-                       <a href=" <?php $c=$row['quize_created'];if($c){echo $row['quiz_file']; } else{echo 'quiz.php';} ?>" class="btn btn-secondary">
+                       <a href=" <?php $c=$row['quize_created'];if($c){echo 'course_quiz.php?course_id='.$row['course_id']; } else{echo 'quiz.php';} ?>" class="btn btn-secondary">
 
                         <?php $c=$row['quize_created']; 
                         if($c){echo "view Quiz ";}
