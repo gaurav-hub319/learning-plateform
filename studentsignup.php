@@ -96,11 +96,11 @@ form {
   <h2>Student Sign Up</h2>
   <p>
       <label for="Name" class="floatLabel">Name</label>
-      <input id="Name" name="name" type="text">
+      <input id="Name" name="name" type="text" required="">
     </p>
     <p>
       <label for="Email" class="floatLabel">Email</label>
-      <input id="Email" name="email" type="text">
+      <input id="Email" name="email" type="text" required="">
     </p>
     <p>
       <label for="password" class="floatLabel">Password</label>
@@ -116,9 +116,10 @@ form {
       <input type="submit" value="Sign Up" id="submit" name="signup">
     </p>
     <p >
-     <a href="student.php" style="padding:5px;font-size:16px;color:#4a93b5;">Already Sign UP? Please Login</a>
+     <a href="student.php" style="padding:5px;font-size:16px;">New Student ? Sign In</a>
     </p>
   </form>
+  
      <script src="
 https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
