@@ -105,10 +105,10 @@ form {
       <input id="password" name="password" type="password">
     </p> 
     <p>
-      <input type="submit" value="Sign IN" id="submit" name="student">
+      <input type="submit" value="Sign in" id="submit" name="student">
     </p>
-    <p >
-     <a href="studentsignup.php" style="padding:5px;font-size:16px;color:#4a93b5;">Please Sign Up</a>
+    <p>
+     <a href="studentsignup.php" style="padding:5px;font-size:16px;">New User ? Sign Up</a>
     </p>
   </form>
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
