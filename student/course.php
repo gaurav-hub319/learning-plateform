@@ -87,8 +87,10 @@ https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
                       type:'POST',
                       url:'action.php',
                       data:'course_id='+this.value,
-                      success:function(html){
-                        window.open(html);
+                      success:function(data){
+                      
+                        window.open("quiz.php?course_id="+data);
+                        
                       }
                   });
              });
