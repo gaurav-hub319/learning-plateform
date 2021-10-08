@@ -1,7 +1,7 @@
 <?php 
 $servername="localhost";
 $username="root";
-$database="navigus";
+$database="anu";
 $password="";
 $con=mysqli_connect($servername,$username,$password,$database);
 if (!$con) {
